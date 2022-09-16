@@ -1,25 +1,130 @@
-body{
-    background-image: url(./public/img/photo-1585202900225-6d3ac20a6962.avif);
-    margin: 0;
-}
-
 @font-face {
     font-family: 'MyWebFont';
     src: url(./public/fonts/Norse-Bold.otf);
 }
 
-.first-part {
+body {
+    margin: 0%;
+    padding: 0;
+}
+.main {
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    margin-right: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    background-image: url(./public/img/photo-1585202900225-6d3ac20a6962.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'MyWebFont';
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-part {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(243, 242, 242)
 }
 
 .title {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+    font-size: 24px;
+}
+
+
+.second-part {
+    background-color: white;
+    height: 30vh;
+}
+
+.sub-title {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 24px;
+}
+
+.form-main-div {
     display: flex;
     flex-direction: row;
-    
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.form-divs {
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 8px 0px;
+    font-size: 12px;
+    color: rgb(66, 57, 57);
+    font-family: system-ui;
+}
+
+input {
+    width: 200px;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 22px;
+}
+
+input:focus {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: #e5e7eb;
+
+}
+
+.third-part {
+    height: 30vh;
+    background-color: rgb(243, 242, 242);
+    margin-top: 5%;
+}
+
+button {
+    margin: 3% 0% 0% 5%;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    background-color: #596D48;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.sign-in {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+
+
 
 
 
