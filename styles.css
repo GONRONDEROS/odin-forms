@@ -1,4 +1,25 @@
-.container{
+body{
+    background-image: url(./public/img/photo-1585202900225-6d3ac20a6962.avif);
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url(./public/fonts/Norse-Bold.otf);
+}
+
+.first-part {
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    margin-right: 0;
 }
+
+.title {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
