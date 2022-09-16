@@ -51,6 +51,7 @@ body {
 .second-part {
     background-color: white;
     height: 30vh;
+    box-shadow: 4px 10px #e5e7eb;
 }
 
 .sub-title {
@@ -103,24 +104,32 @@ input:focus {
 .third-part {
     height: 30vh;
     background-color: rgb(243, 242, 242);
-    margin-top: 5%;
+    margin-top: 10px;
 }
 
 button {
     margin: 3% 0% 0% 5%;
-    border-radius: 5px;
+    border: 1px solid #596D48;
+    border-radius: 10px;
     height: 50px;
     width: 250px;
     background-color: #596D48;
+    font-weight: bolder;
     font-size: 20px;
     padding: 10px;
     color: white;
+    box-shadow: 5px 10px #e5e7eb;
 }
 
 .sign-in {
     margin-top: 2%;
     margin-left: 5%;
     font-size: 20px;
+}
+
+a {
+    color: #596D48;
+    font-weight: bolder
 }
 
 
